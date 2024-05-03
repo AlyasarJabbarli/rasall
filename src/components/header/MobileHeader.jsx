@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../Logo";
-import { faCartShopping, faCirclePlus, faHeart, faList, faMagnifyingGlass, faPlus, faUser, faX } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping, faCirclePlus, faHeart, faList, faMagnifyingGlass, faUser, faX } from "@fortawesome/free-solid-svg-icons";
 import SearchBox from "./SearchBox";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -15,7 +15,7 @@ function MobileHeader() {
     }
     return ( 
         <header className="lg:hidden block">
-            <div className="flex justify-between px-[20px] py-[15px]">
+            <div className="flex justify-between px-[20px] py-[15px] pb-[5px]">
                 <div className="w-[126px]">
                     <Logo/>
 

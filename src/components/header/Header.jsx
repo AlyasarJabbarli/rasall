@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping} from '@fortawesome/free-solid-svg-icons'
 import { faHeart, faCircleUser } from '@fortawesome/free-regular-svg-icons'
 import { useLocation } from 'react-router-dom';
 
