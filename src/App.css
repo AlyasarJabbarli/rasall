@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.construction_main .swiper-button-prev, .construction_main .swiper-button-next{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.624);
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #707070;
+}
+.construction_main .swiper-button-prev{
+    left: 40px;
+}
+.construction_main .swiper-button-next{
+    right: 40px;
+}
+.construction_main .swiper-button-prev::after, .construction_main .swiper-button-next::after{
+    font-size: 22px;
+}
+.construction_main .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 1px solid #707070;
+}
+.construction_main .swiper-pagination-bullet-active{
+    background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.construction2 .swiper-button-next, .construction2 .swiper-button-prev{
+    box-shadow: 0px 0px 6px #0000004D;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 210px;
+    width: 38px;
+    top: 21%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.construction2 .swiper-button-next{
+    right: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.construction2 .swiper-button-prev{
+    left: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.construction2 .swiper-slide{
+    border-radius: 26px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.construction2 .swiper-slide img{
+    border-radius: 26px;
+}
+.construction2 .swiper-button-prev::after, .construction2 .swiper-button-next::after{
+    font-size: 22px;
+    color: #1f1f1f;
+}
+.home_slider .swiper-button-next, .home_slider .swiper-button-prev{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.629);
+    border: 1px solid #707070;
+    top: 40%;
+}
+.home_slider .swiper-button-prev::after, .home_slider .swiper-button-next::after{
+    font-size: 22px;
+    color: #1f1f1f;
+    font-size: bold;
 }
